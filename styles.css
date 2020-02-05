@@ -1,6 +1,9 @@
 body{
 	background: url('assets/img/background.jpg') no-repeat fixed;
     background-size: 100%;
+
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1.2px;
 }
 
 
@@ -9,4 +12,41 @@ body{
 **********************************************************************/
 header{
 	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+}
+
+header a{
+	color: rgb(204,184,156);
+	font-size: 0.8em;
+	text-align: right;
+}
+
+header a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.fa-film{
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+header h2{
+	font-family: "Open Sans Condensed", sans-serif;
+	font-weight: 900;
+	font-size: 2em;
+}
+
+.nav-link{
+	font-size: 15px;
+	margin-top: 15px;
+	
+}
+
+/********************************************************************* 
+************************ ACCUEIL **************************************
+**********************************************************************/
+#acceuil{
+	background-color: white;
 }
