@@ -68,6 +68,7 @@ header h2{
 }
 
 #placard h2{
+	font-family: "Lato", sans-serif;
 	font-weight: 600;
 	margin-bottom: 20px;
 	margin-top: 20px;
@@ -86,7 +87,10 @@ header h2{
 	background-color: rgb(180,66,31);
 	color: rgb(204,184,156);
 	font-weight: 600;
+}
 
+#free p{
+	padding: 2px;
 }
 
 #placard button{
@@ -94,6 +98,7 @@ header h2{
 	color: rgb(204,184,156);
 	font-weight: bold;
 	border-color: rgb(19,40,79);
+
 }
 
 #placard-right p{
@@ -106,15 +111,58 @@ header h2{
 		font-size: 1.6em;	
 	}
 	#placard h2{
-		font-size: 1.8em;	
+		font-size: 1.7em;
+		margin-bottom: 15px;	
 	}
+}
+
+/************************** additional button on mobile *************************************/
+
+#btnPresentation button{
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	font-weight: bold;
+	border-color: rgb(19,40,79);.
+}
+
+#btnPresentation{
+	margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+	#btnPresentation {
+		display: none;
+	}
+
 }
 
 /************************** Carousel posters *************************************/
 
-.carousel-item h5{
+.carousel-item h5{ /* legends item */
 	font-size: 1rem;
 	font-weight: 900;
 	text-align: center;
 	line-height: 1.5;
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+/************************** Festival presentation *************************************/
+
+
+#homeFestivalPresentation h2{
+	font-family: "Open Sans Condensed", sans-serif;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 360px){
+	#homeFestivalPresentation h2{
+		font-size: 1.5rem;
+	}
+	#homeFestivalPresentation p{
+		font-size: 0.8rem;
+	}
 }
