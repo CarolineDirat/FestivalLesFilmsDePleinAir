@@ -78,8 +78,9 @@
 
           
           <!-- Carroussel des affiches de film -->
-          <!-- Films de 18h-->
           <div class="row">
+
+            <!-- Films de 18h-->
             <div id="carouselposters18h" class="carousel slide col-md-4 carousel-fade" data-ride="carousel">
               <ol class="carousel-indicators">
                 <li data-target="#carouselposters18h" data-slide-to="0" class="active"></li>
@@ -200,24 +201,55 @@
               Duis elementum pretium neque eu posuere. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean iaculis lectus ut nisl placerat, eu congue mi tincidunt. Etiam non augue in quam mollis consectetur. Ut dignissim tellus et nunc efficitur, sit amet convallis ligula euismod. Nunc sed neque a neque fringilla tempor et quis neque. Praesent elementum commodo leo, ac pulvinar ante scelerisque quis. Quisque purus metus, mollis ut justo eu, iaculis lobortis erat. Aliquam nulla lacus, porta et lacinia non, euismod ut est. Vivamus ut sapien orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sit amet sapien eget enim consequat aliquet id in lorem.
             </p>
             </div>
-            
-            
           </div>
+
           <!-- Google map du Parc Monceau -->
-          <div class="row">
-            
-          </div>     
+          <div id="google-map" class="row">
+            <div class="col-md-12">
+              <img class="img-fluid" src="assets/img/parcMonceauMap.jpg" alt="localisation du parc Monceau sur la carte de Paris">
+            </div>
+          </div>   
+
         </article>
-        <aside class="col-md-3">
+
+        <aside id="aside" class="col-md-3">
+
           <!-- Partage réseaux sociaux - Facebook, Twitter, Google Plus -->
+          <div id="share" >
+            <div >
+              <p>VOUS POUVEZ PARTAGER !</p>
+              <div>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-google-plus-square"></i>
+              </div>             
+            </div>
+          </div>
+
           <!-- Dernier Article --> 
-          
+          <div id="last-article" >
+            <div >
+              <p>DERNIER ARTICLE</p>
+              <hr>
+              <a href="">Titre</a><span> - Date</span>   
+              <hr>          
+            </div>
+          </div>
         </aside>
         
       </section>
-      <footer>
-        
+
+      <footer class="row ">
+        <ul class="nav justify-content-center col-md-12">
+          <li class="nav-item ">
+            <a class="nav-link first" href="#">Mentions légales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Newsletter</a>
+          </li>
+        </ul>
       </footer>
+
     </div>
 
 
@@ -226,5 +258,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    
   </body>
+
 </html>
