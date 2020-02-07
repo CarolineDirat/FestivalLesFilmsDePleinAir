@@ -4,6 +4,7 @@ body{
 
     font-family: "Open Sans", sans-serif;
     letter-spacing: 1.2px;
+    color: rgb(19,40,79);
 }
 
 
@@ -41,12 +42,69 @@ header h2{
 .nav-link{
 	font-size: 15px;
 	margin-top: 15px;
-	
 }
 
 /********************************************************************* 
 ************************ ACCUEIL **************************************
 **********************************************************************/
-#acceuil{
+#home{
 	background-color: white;
 }
+
+#placard{
+	background-color: rgb(204,184,156);
+	border: 5px solid rgb(180,66,31);
+	border-radius: 20px;
+	margin: 5%;
+	padding: 10px;
+	text-align: center;
+	font-weight: 600;
+}
+
+#placard p{
+	font-size: 1.2em;
+}
+
+#placard h2{
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	line-height: 1.4;
+}
+
+#placard h1{
+	font-size: 1.7em;
+	font-weight: bold;
+	font-family: "Lato", sans-serif;
+	margin-bottom: 10px;
+	line-height: 1.4;
+}
+
+#free{
+	background-color: rgb(180,66,31);
+	color: rgb(204,184,156);
+	font-weight: 600;
+
+}
+
+#placard button{
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	font-weight: bold;
+	border-color: rgb(19,40,79);
+}
+
+#placard-right p{
+	font-size: 1.1em;
+}
+
+
+@media screen and (max-width: 768px) {
+	#placard h1{
+		font-size: 1.6em;	
+	}
+	#placard h2{
+		font-size: 1.8em;	
+	}
+}
+		
