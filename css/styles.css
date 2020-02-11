@@ -1,142 +1,94 @@
-body{
-	background: url('assets/img/background.jpg') no-repeat fixed;
-    background-size: 100%;
-
+body {
+	background-image: url('../assets/img/background.jpg');
+    background-size: cover;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 1.2px;
     color: rgb(19,40,79);
 }
-
-button:focus{
+button:focus {
 	outline-color: rgb(204,184,156);
 }
-
-
 /********************************************************************* 
 ************************ HEADER **************************************
 **********************************************************************/
-header{
+header {
 	background-color: rgb(19,40,79);
 	color: rgb(204,184,156);
 }
-
-header a{
+header a {
 	color: rgb(204,184,156);
 	font-size: 0.8em;
 }
-
-header a:hover{
+header a:hover {
 	color: white;
 	text-decoration: none;
 }
-
-
-
-/************* Newsletter *******************/
-
-#newsletter{
+/************************* Newsletter *************************/
+#newsletter {
 	text-align: right;
 }
-
-/************* Logo *******************/
-
-.fa-film{
+/************************** Logo *****************************/
+.fa-film {
 	margin-right: 10px;
 	margin-left: 20px;
 	margin-top: 10px;
 }
-
-header h2{
+header h2 {
 	font-family: "Open Sans Condensed", sans-serif;
 	font-weight: 900;
 	font-size: 2em;
 }
-
-/************* Header - Responsive *******************/
-
-@media screen and (max-width: 440px){
-	header h2{
-		font-size: 1.2em;
-	}
-	.fa-film{
-		margin-left: 0;
-		margin-right: 5px;
-	}
-}
-
-@media screen and (max-width: 768px){
-	#newsletter{
-		font-size: 0.7rem;
-		margin-bottom: 10px;
-		padding-top: 5px;
-	}
-}
-
-/************* Menu *******************/
-header .nav-link{
+/************************** Menu *****************************/
+header .nav-link {
 	font-size: 15px;
 	text-align: right;
 }
-
-.navbar{
+.navbar {
 	padding-bottom: 0;
 }
-
-.navbar-nav{
+.navbar-nav {
 	margin: auto;
 }
-
-.navbar-toggler{
+.navbar-toggler {
 	color: rgb(204,184,156);
 	margin-bottom: 5px;
 }
-
 /********************************************************************* 
 ************************ FOOTER **************************************
 **********************************************************************/
-footer{
+footer {
 	background-color: rgb(19,40,79);
 	color: rgb(204,184,156);
 }
-
-footer .nav{
+footer .nav {
 	margin-top: 40px;
 	margin-bottom: 50px;
 }
-
-footer a{
+footer a {
 	color: rgb(204,184,156);
 	font-size: 0.8em;
 	text-align: center;
 	
 }
-
-footer a:hover{
+footer a:hover {
 	color: white;
 	text-decoration: none;
 }
-
-footer .first{
+footer .first {
 	border-right: 1px solid rgb(204,184,156);
 	
 }
-
-footer .nav-link{
+footer .nav-link {
 	height: 10px;
 	line-height: 0;
 }
-
-
-
 /********************************************************************* 
 ************************ ASIDE **************************************
 **********************************************************************/
-
-#aside{
+#aside {
 	margin-top: 20px;
 }
-
-#aside p{
+#aside p {
 	font-family: "Open Sans Condensed", sans-serif;
 	font-weight: 900;
 	font-size: 0.8rem;
@@ -145,36 +97,58 @@ footer .nav-link{
 	border-radius: 2px;
 	margin-top: 50px;
 }
-
-#aside hr{
+#aside hr {
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-
-#aside a{
+#aside a {
 	color: rgb(180,66,31);
 }
-
-#share i{
+#share i {
 	font-size: 2rem;
 	padding-right: 10px;
 	margin-top: 10px;
 }
-
-#share i:hover{
+#share i:hover {
 	color: rgb(180,66,31);
 }
-
-#last-article{
+#last-article {
 	font-size: 0.8rem;
 }
-
-@media screen and (max-width: 768px){
-	#aside{
+/*********************************************************************/
+/********************************************************************* 
+************************* Media Queries ******************************
+*********************************************************************/
+/*********************************************************************/
+@media screen and (max-width: 768px) {
+/**************************** HEADER *******************************/
+	#newsletter {
+		font-size: 0.7rem;
+		margin-bottom: 10px;
+		padding-top: 5px;
+	}
+/**************************** ASIDE ********************************/
+	#aside {
 		margin-top: 10px;
 		margin-bottom: 50px;
+	}	
+}
+/********************************************************************/
+@media screen and (max-width: 440px) {
+/***************************** HEADER ******************************/	
+	header h2 {
+		font-size: 1.2em;
+	}
+	.fa-film{
+		margin-left: 0;
+		margin-right: 5px;
 	}
 }
-
-
+/********************************************************************/
+@media screen and (max-width: 360px) {
+	/******************** Buttons ************************/
+	a[role="button"] {
+		font-size: 0.6rem;
+	}	
+}
 
