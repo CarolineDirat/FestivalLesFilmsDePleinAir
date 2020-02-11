@@ -1,0 +1,211 @@
+/*********************************************************************************
+************************ HOME ****************************************************
+*********************************************************************************/
+#home{
+	background-color: white;
+	padding-left: 15px;
+}
+
+/************************** Placard *************************************/
+
+#placard{
+	background-color: rgb(204,184,156);
+	border: 5px solid rgb(180,66,31);
+	border-radius: 20px;
+	margin: 5%;
+	padding: 10px;
+	text-align: center;
+	font-weight: 600;
+}
+
+#placard p{
+	font-size: 1.2em;
+}
+
+#placard h2{
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	line-height: 1.4;
+}
+
+#placard h1{
+	font-size: 1.7em;
+	font-weight: bold;
+	font-family: "Lato", sans-serif;
+	margin-bottom: 10px;
+	line-height: 1.4;
+}
+
+#free .badge-primary{
+	background-color: rgb(180,66,31);
+	color: rgb(204,184,156);
+	font-weight: 600;
+	padding: 3px 6px;
+	white-space: normal;
+	line-height: 1.5;
+}
+
+
+#placard button{
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	font-weight: bold;
+	border-color: rgb(19,40,79);
+}
+
+#placard-right p{
+	font-size: 1.1em;
+}
+
+
+@media screen and (max-width: 991px) {
+	#placard h1{
+		font-size: 1.6em;	
+	}
+	#placard h2{
+		font-size: 1.7em;
+		margin-bottom: 15px;	
+	}
+	#placard p{
+		font-size: 1rem;
+		margin-bottom: 0.5rem;	
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	#free {
+		margin-top: 5px;
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 474px) {
+	#placard h1{
+		font-size: 1.2em;	
+	}
+	#placard h2{
+		font-size: 1.2em;		
+	}
+	#placard p{
+		font-size: 0.8rem;	
+	}
+}
+
+
+
+/************************** additional button on mobile PRESENTATION *************************************/
+
+#btnPresentation button{
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	font-weight: bold;
+	border-color: rgb(19,40,79);
+	margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+	#btnPresentation {
+		display: none;
+	}
+}
+
+/************************** Carousel posters *************************************/
+
+
+.carousel-item h5{ /* legends item */
+	font-size: 1rem;
+	font-weight: 900;
+	text-align: center;
+	line-height: 1.5;
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.slide{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+	opacity: 1;
+
+}
+
+
+@media screen and (max-width: 992px) {
+	.carousel-item h5{
+		font-size: 0.8rem;
+		padding: 5px 5px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.slide {
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.slide {
+		width: 75%;
+		margin: auto;
+	}
+}
+
+
+/************************** Festival presentation *************************************/
+
+
+#homeFestivalPresentation h2{
+	font-family: "Open Sans Condensed", sans-serif;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+#homeFestivalPresentation p {
+	text-align: justify;
+}
+
+@media screen and (max-width: 360px){
+	#homeFestivalPresentation h2{
+		font-size: 1.5rem;
+	}
+	#homeFestivalPresentation p{
+		font-size: 0.8rem;
+	}
+}
+
+/************************** additional button on mobile PROGRAMME *************************************/
+
+#schedule .btn-primary{
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	font-weight: bold;
+	border-color: rgb(19,40,79);
+	margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+	#schedule{
+		display: none;
+	}
+}
+
+
+/************************** Google map *************************************/
+
+#google-map{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 768px){
+	#google-map{
+		margin-bottom: 10px;
+	}
+}
