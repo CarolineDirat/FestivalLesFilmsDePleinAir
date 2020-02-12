@@ -1,0 +1,83 @@
+#schedule {
+	background-color: white;
+	padding-left: 15px;
+}
+#scheduleIntroduction {
+	padding-right: 15px;
+}
+#scheduleIntroduction p {
+	text-align: justify;
+	font-size: 0.9rem;
+}
+#scheduleIntroduction h2 {
+	font-size: 1.5rem;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-weight: bold;
+	margin-top: 40px;
+}
+/******************* evening header *******************************/
+.evening {
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	font-weight: bold;
+	padding-bottom: 10px;
+	 
+}
+.evening .btn-primary {
+	background-color: rgb(204,184,156);
+	color: rgb(19,40,79);
+	border-color: rgb(204,184,156);
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.title-evening {
+	font-size: 1.2rem;
+	margin-top: 10px;
+}
+/*************************** Movie *******************************/
+.movie .btn-primary {
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	border-color: rgb(19,40,79);
+	font-weight: bold;
+}
+
+/******************************************************************/
+/******************* Media Queries *******************************/
+/*****************************************************************/
+@media screen and (max-width: 992px) {
+	#scheduleIntroduction p {
+		font-size: 0.8rem;
+	}
+	#scheduleIntroduction h2 {
+		font-size: 1.3rem;
+	}
+	.title-evening {
+		font-size: 1rem; 
+	}
+	.evening .btn-primary {
+		font-size: 0.9rem;
+		padding: 4px 4px;
+	}
+}
+
+
+
+@media screen and (max-width: 311px) {
+	#scheduleIntroduction p {
+		font-size: 0.6rem;
+	}
+	#scheduleIntroduction h2 {
+		font-size: 1rem;
+	}
+	.title-evening {
+		font-size: 0.7rem; 
+		margin-top: 5px;
+	}
+	.evening .btn-primary {
+		font-size: 0.6rem;
+		padding: 3px 3px;
+	}
+	
+}
