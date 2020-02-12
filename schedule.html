@@ -26,7 +26,7 @@
         <div class="col-md-12">
           <h2><i class="fas fa-film"></i>Festival Des Films De Plein Air</h2>
         </div>
-<!-- Navigation Menu --> 
+<!-- Navigation Menu -->
         <nav class="col-md-12 navbar navbar-expand-lg ">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,21 +48,21 @@
         </nav>
       </header>
 <!-- Page des programmes -->
-      <section id="schedule" class="row" > 
-        <article class="col-md-9 ">
+      <section  id="schedule-page" class="row" >
+        <article id="schedule"class="col-md-9 ">
 <!-- Introduction au programme -->
-          <div id="scheduleIntroduction" class="row">
+          <div id="schedule-introduction" class="row">
             <div class="col-md-12">
-              <h2>Programme du Festival des films de plein air</h2>
+              <h2 class="font-weight-bolder">Programme du Festival des films de plein air</h2>
               <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. Fusce sed suscipit quam. Fusce sagittis fermentum consequat. 
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. Fusce sed suscipit quam. Fusce sagittis fermentum consequat.
               </p>
               <hr>
             </div>
           </div>
  <!-- Soirée du mercredi 05/08/20 -->
-          <div class="row align-items-center evening">
-            <div class="col-12 col-sm-7  col-xl-8 title-evening">
+          <div id="wednesday" class="row align-items-center evening">
+            <div class="col-12 col-sm-7  col-xl-8 title-evening font-weight-bolder">
               Soirée du mercredi 05/08/2020
             </div>
             <div class="d-flex justify-content-end col-12 col-sm-5 col-md-5 col-lg-5 col-xl-4 btns-evening">
@@ -71,32 +71,315 @@
               <a href="#saturday" role="button" class="btn btn-primary btn-outline-light">08/08</a>
             </div>
           </div>
-<!-- Film de 20h du mercredi 05/08/20-->
-          <div class="row head-movie">
-            <h3 class="col-md-4 d-flex justify-content-center">18h</h3>
-            <h2 class="col-md-8 d-flex justify-content-start">TITRE DU FILM</h2>
+<!-- Film de 18h du mercredi 05/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">18h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
           </div>
           <div class="row movie">
             <div class="col-md-4 poster">
-              <img src="assets/img/posters/poster-1.jpg">
-            </div>
-            <div class="col-md-8 details-movie">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. Fusce sed suscipit quam. Fusce sagittis fermentum consequat.<br>
-                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo, ornare orci sit amet, laoreet risus. Nam lobortis suscipit odio nec bibendum. Vivamus non arcu ut massa finibus luctus nec eget risus. Maecenas nec nisl nec tortor facilisis dignissim. Nunc tristique mattis tellus id sollicitudin...
-              </p>
-              
-              <div class="row">
-                <a href="movie.html" role="button" class="btn btn-primary btn-outline-light">Je m'inscris</a>
+              <img src="assets/img/posters/poster-1.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
               </div>
             </div>
-            
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
           </div>
-
-           
-          
-
-
+<!-- Film de 20h du mercredi 05/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">20h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-2.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Film de 22h du mercredi 05/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">22h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-3.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Soirée du Jeudi 06/08/20 -->
+          <div id="thursday" class="row align-items-center evening">
+            <div class="col-12 col-sm-7  col-xl-8 title-evening font-weight-bolder">
+              Soirée du jeudi 06/08/2020
+            </div>
+            <div class="d-flex justify-content-end col-12 col-sm-5 col-md-5 col-lg-5 col-xl-4 btns-evening">
+              <a href="#wednesday" role="button" class="btn btn-primary btn-outline-light">05/08</a>
+              <a href="#friday" role="button" class="btn btn-primary btn-outline-light">07/08</a>
+              <a href="#saturday" role="button" class="btn btn-primary btn-outline-light">08/08</a>
+            </div>
+          </div>
+<!-- Film de 18h du jeudi 06/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">18h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-4.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Film de 20h du jeudi 06/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">20h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-5.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>               
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Film de 22h du jeudi 06/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">22h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-6.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Soirée du vendredi 07/08/20 -->
+          <div id="friday" class="row align-items-center evening">
+            <div class="col-12 col-sm-7  col-xl-8 title-evening font-weight-bolder">
+              Soirée du vendredi 07/08/2020
+            </div>
+            <div class="d-flex justify-content-end col-12 col-sm-5 col-md-5 col-lg-5 col-xl-4 btns-evening">
+              <a href="#wednesday" role="button" class="btn btn-primary btn-outline-light">05/08</a>
+              <a href="#thursday" role="button" class="btn btn-primary btn-outline-light">06/08</a>
+              <a href="#saturday" role="button" class="btn btn-primary btn-outline-light">08/08</a>
+            </div>
+          </div>
+<!-- Film de 18h du vendredi 07/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">18h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-7.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Film de 20h du vendredi 07/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">20h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-8.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Film de 22h du vendredi 07/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">22h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-9.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Soirée du samedi 08/08/20 -->
+          <div id="saturday" class="row align-items-center evening">
+            <div class="col-12 col-sm-7  col-xl-8 title-evening font-weight-bolder">
+              Soirée du samedi 08/08/2020
+            </div>
+            <div class="d-flex justify-content-end col-12 col-sm-5 col-md-5 col-lg-5 col-xl-4 btns-evening">
+              <a href="#wednesday" role="button" class="btn btn-primary btn-outline-light">05/08</a>
+              <a href="#thursday" role="button" class="btn btn-primary btn-outline-light">06/08</a>
+              <a href="#friday" role="button" class="btn btn-primary btn-outline-light">07/08</a>
+            </div>
+          </div>
+<!-- Film de 18h du samedi 08/08/20-->
+          <div  class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">18h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-10.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Film de 20h du samedi 08/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">20h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-11.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
+<!-- Film de 22h du samedi 08/08/20-->
+          <div class="row head-movie align-items-center">
+            <h3 class="col-3 col-sm-4 d-flex justify-content-sm-start justify-content-center">22h</h3>
+            <h2 class="col-9 col-sm-8 d-flex justify-content-start">TITRE DU FILM</h2>
+          </div>
+          <div class="row movie">
+            <div class="col-md-4 poster">
+              <img src="assets/img/posters/poster-12.jpg" class="d-block w-100 mx-auto" alt="Affiche du film 'Titre du film'">
+              <!-- Bouton supplémentaire sur tablette et mobile -->
+              <div class="row justify-content-center registration-mobile">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+            <div class="col-md-8 details-movie text-justify">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo. Duis semper eros nec dictum rutrum. Mauris tempus magna in mi consectetur, ut tincidunt purus ornare. <br>
+                Suspendisse elementum eleifend neque id tempor. Ut sodales magna vel metus rhoncus aliquet. Sed a nisl ultricies, sollicitudin eros et, dignissim enim. Sed non lacus commodo...
+              </p>
+              <div class="row justify-content-center justify-content-md-end registration">
+                  <a href="movie.html" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">Je m'inscris</a>
+              </div>
+            </div>
+          </div>
         </article>
 <!-- Colonne latérale droite -->
         <aside id="aside" class="col-md-3">
@@ -116,8 +399,8 @@
             <div >
               <p>DERNIER ARTICLE</p>
               <hr>
-              <a href="article.html">Titre</a><span> - Date</span>   
-              <hr>          
+              <a href="article.html">Titre</a><span> - Date</span>
+              <hr>
             </div>
           </div>
         </aside>
@@ -138,11 +421,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<!-- Jquery code    
+<!-- Jquery code -->   
     <script type="text/javascript">
     $(document).ready(function(){
 // Add smooth scrolling to all the link of "PRESENTATION" button
-      $("#btnPresentation a").on('click', function(event) {
+      $(".btns-evening a").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior
@@ -160,6 +443,6 @@
         } // End if
       });
     });
-    </script>--> 
+    </script> 
   </body>
 </html>
