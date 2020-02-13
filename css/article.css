@@ -1,0 +1,49 @@
+#article-page {
+	background-color: white;
+	padding-left: 15px;
+	
+}
+#article {
+	padding-right: 40px;
+	padding-top: 60px;
+}
+#article h1, #article h2, #article legend {
+	font-family: "Open Sans Condensed", sans-serif;
+}
+#article h1 {
+	padding-bottom: 20px;
+}
+#article h2 {
+	font-size: 1.2rem;
+	margin-top: 30px;
+	color: rgb(180,66,31);
+}
+#article h3 {
+	font-size: 0.9rem;
+	margin-top: 40px;
+}
+#article p.text-justify {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+#other-article {
+	padding-left: 40px;
+	margin-bottom: 60px;
+}
+#article form {
+	margin-top: 50px;
+}
+#article legend {
+	margin-bottom: 30px;
+}
+#article .form-check {
+	margin-top: 20px;
+}
+#article button.btn-primary {
+	background-color: rgb(180,66,31);
+	color: white;
+	border-color: rgb(180,66,31);
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+

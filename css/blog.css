@@ -15,7 +15,7 @@
 #blog-page p {
 	font-size: 0.9rem;
 }
-#blog-page a.btn-outline-primary {
+#blog-page a.btn-outline-light {
 	border-color: rgb(225,225,225);
 	color: rgb(180,66,31);
 	margin-top: 20px;
@@ -23,6 +23,11 @@
 	padding: .575rem .75rem;
 	font-size: 0.8rem;
 }
+#blog-page a.btn-outline-light:hover, #blog-page a.btn-outline-light:active {
+	background-color: rgb(204,184,156);
+	font-weight: bolder;
+}
+
 /******************************************************************/
 /******************* Media Queries *******************************/
 /*****************************************************************/
