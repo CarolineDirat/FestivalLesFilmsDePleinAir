@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="fr">
   <head>
-    <meta name="description" content="Blog du festival des films de plein air : Festival de films d'auteurs avec un cinéma en plein air, au parc Monceau à Paris">
+    <meta name="description" content="Page d'inscription à la newsletter du festival des films de plein air : Festival de films d'auteurs avec un cinéma en plein air, au parc Monceau à Paris">
 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Oswald:700&display=swap" rel="stylesheet">
 <!-- CSS files -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/blog.css">
+    <link rel="stylesheet" type="text/css" href="css/newsletter.css">
     <script src="https://kit.fontawesome.com/628682d090.js" crossorigin="anonymous"></script>
-    <title>Blog du festival des films de plein air</title>
+    <title>Inscription à la newsletter du festival des films de plein air</title>
   </head>
   <body>
     <div class="container">
@@ -47,40 +47,34 @@
           </div>
         </nav>
       </header>
-      <section  id="blog-page" class="row" >
-        <article id="blog" class="col-md-9 ">
-<!-- Dernier article -->
-          <h2 class="font-weight-bolder">TITRE DE L'ARTICLE</h2>
-          <p style="color: grey;">Auteur - Date - Catégorie - n commentaires</p>
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus...
-          </p>
-          <a href="#article.html" role="button" class="btn btn-outline-primary">CONTINUER LE LECTURE ></a>
-          <hr>
-<!-- Avant-Dernier article -->
-          <h2 class="font-weight-bolder">TITRE DE L'ARTICLE</h2>
-          <p style="color: grey;">Auteur - Date - Catégorie - n commentaires</p>
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus...
-          </p>
-          <a href="#article.html" role="button" class="btn btn-outline-primary">CONTINUER LE LECTURE ></a>
-          <hr>
-<!-- Avant-avant-Dernier article -->
-          <h2 class="font-weight-bolder">TITRE DE L'ARTICLE</h2>
-          <p style="color: grey;">Auteur - Date - Catégorie - n commentaires</p>
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus...
-          </p>
-          <a href="#article.html" role="button" class="btn btn-outline-primary">CONTINUER LE LECTURE ></a>
-          <hr>
-<!-- Avant-avant-avant-Dernier article -->
-          <h2 class="font-weight-bolder">TITRE DE L'ARTICLE</h2>
-          <p style="color: grey;">Auteur - Date - Catégorie - n commentaires</p>
-          <p class="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus...
-          </p>
-          <a href="#article.html" role="button" class="btn btn-outline-primary">CONTINUER LE LECTURE ></a>
-          <hr>
+      <div id="newsletter-title" class="row">
+        <h1 class="font-weight-bolder">NEWSLETTER</h1>
+      </div>
+      <section  id="newsletter-page" class="row" >
+        <article id="newsletter-registration" class="col-md-9 ">
+<!-- Formulaire d'inscription à la newsletter -->
+          <form action="" method="" id="form-newsletter-registration">
+            <!-- Email -->
+            <div class="form-group">
+              <label for="e-mail" class="font-weight-bolder">E-mail</label>
+              <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" required>
+              <small id="emailHelp" class="form-text text-muted">Nous ne partageons votre adresse mail à personne.</small>
+              <div class="invalid-feedback">
+                Veuillez renseigner adresse mail valide.
+              </div>
+            </div>
+            <!-- Case d'acceptation -->
+            <div class="form-group form-check">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="check-mentions-legales" required>
+                <label class="form-check-label" for="check-mentions-legales">
+                  Je consens à ce que mes données soumises soient recueillies et stockées comme décrit par le site Mentions légales.
+                </label>
+              </div>
+            </div>
+            <!-- Bouton d'envoie -->
+            <button type="submit" class="btn btn-secondary">JE M'ABONNE</button>         
+          </form>
         </article>
 <!-- Colonne latérale droite -->
         <aside id="aside" class="col-md-3">

@@ -1,0 +1,25 @@
+#newsletter-page {
+	background-color: white;
+	min-height: 600px;
+	padding-left: 15px;
+	padding-top: 20px;
+	
+}
+#newsletter-registration {
+	padding-right: 80px;
+	padding-top: 80px;
+	padding-left: 80px;
+}
+#newsletter-title {
+	background-color: rgb(204,184,156);
+}
+#newsletter-title h1 {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 1.8rem;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+#newsletter-registration .form-check-label {
+	font-size: 0.8rem;
+}
