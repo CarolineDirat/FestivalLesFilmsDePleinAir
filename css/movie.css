@@ -38,6 +38,23 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+#movie-page form {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#movie-page legend {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+#movie-page button.btn-primary {
+	background-color: rgb(180,66,31);
+	color: white;
+	border-color: rgb(180,66,31);
+	margin-top: 10px;
+}
+
 /******************************************************************/
 /******************* Media Queries *******************************/
 /*****************************************************************/
@@ -73,16 +90,20 @@
 	}
 }
 @media screen and (max-width: 767px) {
+	.movie-data {
+		padding-top: 10px;
+	}
 	.movie-data img{
 		width: 40%!important;
+		margin-bottom: 10px;
 	}
 	#box {
 		margin-top: 10px;
 	}
-	
+	#movie-page form {
+		margin-bottom: 10px;
+	}	
 }
-
-
 @media screen and (max-width: 575px) {
 	#movie-title h1 {
 		font-size: 1.2rem;
@@ -100,5 +121,18 @@
 	}
 	#movie p {
 		font-size: 0.7rem;
+	}
+	.movie-data img{
+		width: 50%!important;
+	}
+	#movie-page form {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 50px;
+}
+}
+@media screen and (max-width: 360px) {
+	.movie-data img{
+		width: 100%!important;
 	}
 }

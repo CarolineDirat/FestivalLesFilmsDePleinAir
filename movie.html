@@ -49,9 +49,9 @@
       </header>
 <!-- Page d'un film -->
       <!-- Bandeau avec le titre du film -->
-        <div id="movie-title" class="row">
-          <h1 class="font-weight-bolder">Titre du film</h1>
-        </div>      
+      <div id="movie-title" class="row">
+        <h1 class="font-weight-bolder">Titre du film</h1>
+      </div>      
       <section  id="movie-page" class="row" >
         <article id="movie" class="col-md-9 ">
 <!-- Informations pratiques -->
@@ -65,7 +65,7 @@
               <h5 class="font-weight-bolder">Emplacement :</h5>
               <p>Parc Monceau</p>
               <div>
-                <a href="#form-registration" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">
+                <a href="#form-movie-registration" role="button" class="btn btn-primary btn-outline-light font-weight-bolder">
                   JE M'INSCRIS <i class="fa fa-long-arrow-alt-down"></i>
                 </a>
               </div>
@@ -82,22 +82,68 @@
             </div>
             <!-- Informations et modalités d'inscriptions -->
             <div class="col-md-8 text-justify">
-              <p id="box">
-                Précision sur la gratuité du festival et modalités d'inscription.
-              </p>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tortor id convallis blandit. Vivamus bibendum quis dolor ac aliquet. Mauris blandit in ante eu posuere. Donec a orci porttitor, tincidunt neque quis, elementum massa. Praesent vestibulum, libero et mattis semper, odio lectus vehicula purus, ut scelerisque sem nisi non ante. Etiam vel tristique leo.
+              </p>
+              <p id="box">
+                Précision sur la gratuité du festival et modalités d'inscription.
               </p>
             </div>
           </div>
 <!-- Formulaire de réservation -->
-          <div id="form-registration" class="row">
-            
-          </div>
-
-
-
-
+          
+          <form action="" method="" id="form-movie-registration" class="needs-validation" novalidate>
+            <!-- titre -->
+            <fieldset>
+              <legend class="font-weight-bolder">INSCRIPTIONS</legend>
+              <!-- Nombres de places -->
+              <div class="form-group">
+                <label for="places">Nombre de places</label>
+                <select name="places" id="places" class="custom-select">
+                  <option value="1" selected="">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+              <!-- Nom -->
+              <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" name="name" class="form-control" id="name" required>
+                <div class="invalid-feedback">
+                  Veuillez renseigner votre nom.
+                </div>
+              </div>
+              <!-- Email -->
+              <div class="form-group">
+                <label for="e-mail">E-mail</label>
+                <input type="email" class="form-control" id="e-mail" aria-describedby="emailHelp" required>
+                <small id="emailHelp" class="form-text text-muted">Nous ne partageons votre adresse mail à personne.</small>
+                <div class="invalid-feedback">
+                  Veuillez renseigner adresse mail valide.
+                </div>
+              </div>
+              <!-- Commentaires -->
+              <div class="form-group">
+                <label for="commentaire">Commentaire (Facultatif)</label>
+                <textarea id="commentaire" class="form-control" rows="5"></textarea>
+              </div>
+              <!-- Case d'acceptation -->
+              <div class="form-group form-check">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="check-mentions-legales" required>
+                  <label class="form-check-label" for="check-mentions-legales">
+                    Je consens à ce que mes données soumises soient recueillies et stockées comme décrit par le site Mentions légales.
+                  </label>
+                  <div class="invalid-feedback">
+                    Vous devez consentir en cochant la case.
+                  </div>
+                </div>
+              </div>
+              <!-- Bouton d'envoie -->
+              <button type="submit" class="btn btn-primary btn-outline-light">J'ENVOIE MA DEMANDE D'INSCRIPTION</button>         
+            </fieldset>
+          </form>
         </article>
 <!-- Colonne latérale droite -->
         <aside id="aside" class="col-md-3">
@@ -143,7 +189,7 @@
     <script type="text/javascript">
     $(document).ready(function(){
 // Add smooth scrolling to all the link of "PRESENTATION" button
-      $(".btns-evening a").on('click', function(event) {
+      $("#movie a").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior
@@ -161,6 +207,25 @@
         } // End if
       });
     });
+
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
     </script> 
   </body>
 </html>
