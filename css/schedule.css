@@ -5,6 +5,7 @@
 #schedule {
 	padding-right: 15px;
 }
+/******************* schedule introduction *******************************/
 #schedule-introduction {
 	padding-right: 20px;
 }
@@ -109,7 +110,6 @@
 		width: 100%!important;
 	}
 }
-
 @media screen and (max-width: 311px) {
 	#schedule-introduction p {
 		font-size: 0.6rem;

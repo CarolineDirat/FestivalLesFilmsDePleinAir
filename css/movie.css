@@ -1,0 +1,67 @@
+#movie-page {
+	background-color: white;
+	padding-left: 15px;
+	padding-top: 30px;
+}
+#movie-title {
+	background-color: rgb(204,184,156);
+}
+#movie-title h1 {
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 2rem;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+#movie {
+	padding-right: 15px;
+}
+#movie div.col-sm-3 {
+	padding-left: 5%;
+}
+#movie h5 {
+	padding-top: 10px;
+	font-size: 1rem;
+}
+/******************************************************************/
+/******************* Media Queries *******************************/
+/*****************************************************************/
+@media screen and (max-width: 1200px) {
+	#movie div.col-sm-3 {
+		padding-left: 25px;
+	}
+}
+@media screen and (max-width: 992px) {
+	#movie-title h1 {
+		font-size: 1.8rem;
+	}
+	#movie div.col-sm-3 {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#movie h5 {
+		padding-top: 5px;
+		font-size: 0.9rem;
+	}
+	#movie p {
+		font-size: 0.9rem;
+	}
+}
+@media screen and (max-width: 576px) {
+	#movie-title h1 {
+		font-size: 1.2rem;
+	}
+	#movie-page {
+		padding-top: 10px;
+		padding-left: 5px;
+	}
+	#movie div.col-sm-3 {
+		padding-left: 25px;
+	}
+	#movie h5 {
+		padding-top: 2px;
+		font-size: 0.7rem;
+	}
+	#movie p {
+		font-size: 0.7rem;
+	}
+}
