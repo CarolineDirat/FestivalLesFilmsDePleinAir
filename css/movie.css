@@ -54,7 +54,6 @@
 	border-color: rgb(180,66,31);
 	margin-top: 10px;
 }
-
 /******************************************************************/
 /******************* Media Queries *******************************/
 /*****************************************************************/
@@ -126,10 +125,10 @@
 		width: 50%!important;
 	}
 	#movie-page form {
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-top: 50px;
-}
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 50px;
+	}
 }
 @media screen and (max-width: 360px) {
 	.movie-data img{

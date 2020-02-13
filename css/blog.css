@@ -1,0 +1,44 @@
+#blog-page {
+	background-color: white;
+	padding-left: 15px;
+	padding-top: 20px;
+}
+#blog {
+	padding-right: 40px;
+}
+#blog-page h2 {
+	margin-top: 40px;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 1.7rem;
+	color: rgb(180,66,31);
+}
+#blog-page p {
+	font-size: 0.9rem;
+}
+#blog-page a.btn-outline-primary {
+	border-color: rgb(225,225,225);
+	color: rgb(180,66,31);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: .575rem .75rem;
+	font-size: 0.8rem;
+}
+/******************************************************************/
+/******************* Media Queries *******************************/
+/*****************************************************************/
+@media screen and (max-width: 575px) {
+	#blog-page {
+		padding-top: 0;
+	}
+	#blog-page h2 {
+		margin-top: 40px;
+		font-size: 1.4rem;
+	}
+	#blog-page p {
+		font-size: 0.7rem;
+	}
+	#blog-page a.btn-outline-primary {
+		margin-top: 0;
+	}
+
+}
