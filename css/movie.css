@@ -1,7 +1,7 @@
 #movie-page {
 	background-color: white;
 	padding-left: 15px;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 #movie-title {
 	background-color: rgb(204,184,156);
@@ -22,6 +22,22 @@
 	padding-top: 10px;
 	font-size: 1rem;
 }
+#movie a.btn-primary {
+	background-color: rgb(19,40,79);
+	color: rgb(204,184,156);
+	border-color: rgb(204,184,156);
+}
+.movie-data {
+	padding-top: 20px;
+}
+#box {
+	min-height: 50px;
+	background-color: rgb(225,225,225);
+	text-align: center;
+	font-style: italic;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 /******************************************************************/
 /******************* Media Queries *******************************/
 /*****************************************************************/
@@ -29,8 +45,11 @@
 	#movie div.col-sm-3 {
 		padding-left: 25px;
 	}
+	.movie-data p {
+		font-size: 0.8rem!important;
+	}
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	#movie-title h1 {
 		font-size: 1.8rem;
 	}
@@ -45,8 +64,26 @@
 	#movie p {
 		font-size: 0.9rem;
 	}
+	#movie .btn {
+		font-size: 0.8rem;
+	}
+	.movie-data p {
+		font-size: 0.7rem!important;
+		margin-bottom: 5px;
+	}
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
+	.movie-data img{
+		width: 40%!important;
+	}
+	#box {
+		margin-top: 10px;
+	}
+	
+}
+
+
+@media screen and (max-width: 575px) {
 	#movie-title h1 {
 		font-size: 1.2rem;
 	}
@@ -58,7 +95,7 @@
 		padding-left: 25px;
 	}
 	#movie h5 {
-		padding-top: 2px;
+		padding-top: 5px;
 		font-size: 0.7rem;
 	}
 	#movie p {
