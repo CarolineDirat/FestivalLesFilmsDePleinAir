@@ -45,6 +45,13 @@
 	border-width: 3px;
 	margin-right: 15px;
 }
+.movie .btn-outline-light:not(:disabled):not(.disabled):active {
+	background-color: rgb(204,184,156);
+	color: rgb(19,40,79);
+	border-color: rgb(19,40,79);
+} 
+
+
 .head-movie {
 	margin-top: 30px;
 	margin-bottom: 5px;
