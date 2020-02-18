@@ -3,7 +3,6 @@
 	min-height: 600px;
 	padding-left: 15px;
 	padding-top: 20px;
-	
 }
 #newsletter-registration {
 	padding-right: 80px;
@@ -23,7 +22,6 @@
 #newsletter-registration .form-check-label {
 	font-size: 0.8rem;
 }
-
 #newsletter-registration button.btn-primary {
 	background-color: rgb(19,40,79);
 	color: rgb(204,184,156);
