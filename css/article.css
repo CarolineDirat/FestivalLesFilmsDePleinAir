@@ -45,3 +45,27 @@
 	margin-top: 10px;
 	margin-bottom: 50px;
 }
+/******************************************************************/
+/******************* Media Queries *******************************/
+/*****************************************************************/
+@media screen and (max-width: 575px) {
+	#article h1 {
+		font-size: 1.5rem;
+	}
+	#other-article {
+		margin-bottom: 30px;
+	}
+	#article form {
+		margin-top: 20px;
+	}
+	#article p, #article label {
+		font-size: 0.7rem;
+	}
+	#article legend {
+		font-size: 1.2rem;
+	}
+	#article .form-control {
+		font-size: 0.7rem;
+		white-space: normal;
+	}
+}
