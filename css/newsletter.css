@@ -30,6 +30,11 @@
 /******************************************************************/
 /******************* Media Queries *******************************/
 /*****************************************************************/
+@media screen and (max-width: 991px) {
+	#newsletter-registration {
+		padding-left: 30px;
+	}
+}
 @media screen and (max-width: 767px) {
 	#newsletter-registration {
 		padding-right: 20px;

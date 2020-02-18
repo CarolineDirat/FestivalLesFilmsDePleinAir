@@ -121,7 +121,7 @@ footer .nav-link {
 @media screen and (max-width: 991px) {
 /**************************** ASIDE ********************************/
 	#aside {
-		padding-left: 5px;
+		padding-left: 0px;
 	}
 }
 @media screen and (max-width: 767px) {

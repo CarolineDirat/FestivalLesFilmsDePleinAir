@@ -71,16 +71,19 @@
 @media screen and (min-width: 992px) {
 	.registration-mobile {
 		display: none;
-	}
+	}	
 }
 @media screen and (max-width: 991px) {
 	.registration {
 		display: none;
 	}
+	#schedule-introduction p, .movie p {
+		font-size: 0.8rem;
+	}
 }
 @media screen and (max-width: 767px) {
 	#schedule-introduction p, .movie p {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 	}
 	#schedule-introduction h2 {
 		font-size: 1.3rem;
@@ -107,12 +110,12 @@
 		margin-top: 20px;
 	}
 	.movie img {
-		width: 75%!important;
+		width: 50%!important;
 	}
 }
 @media screen and (max-width: 411px) {
 	.movie img {
-		width: 100%!important;
+		width: 75%!important;
 	}
 }
 @media screen and (max-width: 311px) {
@@ -132,5 +135,8 @@
 	}
 	.head-movie h3, .head-movie h2 {
 		font-size: 0.9rem;
+	}
+	.movie img {
+		width: 100%!important;
 	}
 }
